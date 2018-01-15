@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f450ca1-c1fb-44d1-8b01-5a1e758d6ddb" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DbscanClusterer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Algorithm/DbscanClusterer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="848">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <marker date="1516038932671" expanded="false" signature="6:97" ph="..." />
+                <marker date="1516038932671" expanded="true" signature="143:2393" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="315:2042" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="431:1969" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="770:835" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="852:1959" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="1141:1945" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="1294:1796" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="2092:2391" ph="{...}" />
+                <marker date="1516038932671" expanded="true" signature="2188:2358" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Star.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Algorithm/Star.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <marker date="1516024648556" expanded="false" signature="6:78" ph="..." />
+                <marker date="1516024648556" expanded="true" signature="97:451" ph="{...}" />
+                <marker date="1516024648556" expanded="true" signature="344:449" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game logic/Runner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" column="94" lean-forward="false" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+              <folding>
+                <marker date="1516039203662" expanded="true" signature="6:63" ph="..." />
+                <marker date="1516039203662" expanded="true" signature="85:1167" ph="{...}" />
+                <marker date="1516039203662" expanded="true" signature="127:1165" ph="{...}" />
+                <marker date="1516039203662" expanded="true" signature="241:1159" ph="{...}" />
+                <marker date="1516039203662" expanded="true" signature="769:1045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorCreator.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Game logic/ColorCreator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <marker date="1516042296583" expanded="false" signature="6:71" ph="..." />
+                <marker date="1516042296583" expanded="true" signature="93:1381" ph="{...}" />
+                <marker date="1516042296583" expanded="true" signature="132:1379" ph="{...}" />
+                <marker date="1516042296583" expanded="true" signature="335:559" ph="{...}" />
+                <marker date="1516042296583" expanded="true" signature="684:1373" ph="{...}" />
+                <marker date="1516042296583" expanded="true" signature="940:1326" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StarsParser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Parser/StarsParser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding>
+                <marker date="1516040649187" expanded="true" signature="6:102" ph="..." />
+                <marker date="1516040649187" expanded="true" signature="136:1242" ph="{...}" />
+                <marker date="1516040649187" expanded="true" signature="184:834" ph="{...}" />
+                <marker date="1516040649187" expanded="true" signature="558:782" ph="{...}" />
+                <marker date="1516040649187" expanded="true" signature="888:1240" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CameraMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <folding>
+                <marker date="1516041936570" expanded="true" signature="6:325" ph="..." />
+                <marker date="1516041936570" expanded="true" signature="80:279" ph="/* Credit to damien_oconnell from http://forum.unity3d.com/threads/39513-Click-drag-camera-movement ... */" />
+                <marker date="1516041936570" expanded="true" signature="371:2499" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="375:395" ph="/* VARIABLES ... */" />
+                <marker date="1516041936570" expanded="true" signature="896:913" ph="/* UPDATE ... */" />
+                <marker date="1516041936570" expanded="true" signature="932:2497" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="1000:1091" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="1160:1250" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="1320:1410" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="1661:1926" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="1984:2213" ph="{...}" />
+                <marker date="1516041936570" expanded="true" signature="2276:2494" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>//</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game logic/Runner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Parser/StarsParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Algorithm/DbscanClusterer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Algorithm/Star.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game logic/ColorCreator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/DBSCAN.cs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Star.cs.cs" />
+        <option value="$PROJECT_DIR$/Assets/StarsParser.cs.cs" />
+        <option value="$PROJECT_DIR$/Assets/DBSCAN.cs" />
+        <option value="$PROJECT_DIR$/Assets/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/StarsParser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Algorithm/DBSCAN.cs" />
+        <option value="$PROJECT_DIR$/Assets/Algorithm/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/Algorithm/DbscanClusterer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game logic/Runner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Parser/StarsParser.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game logic/ColorCreator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Algorithm" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Game logic" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DBSCAN Star clustering (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Parser" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Cam&#9;null&#9;null&#10;S&#9;FILE&#9;file://E:/Hogeschool/Datascience Minor/Machine Learning assignment 2/DBSCAN Star clustering/Assets/Algorithm/Star.cs&#10;stars.c&#9;FILE&#9;file://E:/Hogeschool/Datascience Minor/Machine Learning assignment 2/DBSCAN Star clustering/Assets/stars.csv&#10;St&#9;FILE&#9;file://E:/Hogeschool/Datascience Minor/Machine Learning assignment 2/DBSCAN Star clustering/Assets/Algorithm/Star.cs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/stars.csv" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f450ca1-c1fb-44d1-8b01-5a1e758d6ddb" name="Default" comment="" />
+      <created>1516018513650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516018513650</updated>
+      <workItem from="1516018515343" duration="7973000" />
+      <workItem from="1516031334640" duration="8518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16491000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Algorithm/DbscanClusterer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516038932671" expanded="false" signature="6:97" ph="..." />
+            <marker date="1516038932671" expanded="true" signature="143:2393" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="315:2042" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="431:1969" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="770:835" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="852:1959" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="1141:1945" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="1294:1796" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="2092:2391" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="2188:2358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Algorithm/Star.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <marker date="1516024648556" expanded="false" signature="6:78" ph="..." />
+            <marker date="1516024648556" expanded="true" signature="97:451" ph="{...}" />
+            <marker date="1516024648556" expanded="true" signature="344:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game logic/Runner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1516039203662" expanded="true" signature="6:63" ph="..." />
+            <marker date="1516039203662" expanded="true" signature="85:1167" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="127:1165" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="241:1159" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="769:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Parser/StarsParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <marker date="1516040649187" expanded="true" signature="6:102" ph="..." />
+            <marker date="1516040649187" expanded="true" signature="136:1242" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="184:834" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="558:782" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="888:1240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/stars.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game logic/Runner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="94" lean-forward="false" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+          <folding>
+            <marker date="1516039203662" expanded="true" signature="6:63" ph="..." />
+            <marker date="1516039203662" expanded="true" signature="85:1167" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="127:1165" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="241:1159" ph="{...}" />
+            <marker date="1516039203662" expanded="true" signature="769:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Parser/StarsParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <marker date="1516040649187" expanded="true" signature="6:102" ph="..." />
+            <marker date="1516040649187" expanded="true" signature="136:1242" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="184:834" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="558:782" ph="{...}" />
+            <marker date="1516040649187" expanded="true" signature="888:1240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Algorithm/Star.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <marker date="1516024648556" expanded="false" signature="6:78" ph="..." />
+            <marker date="1516024648556" expanded="true" signature="97:451" ph="{...}" />
+            <marker date="1516024648556" expanded="true" signature="344:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <marker date="1516041936570" expanded="true" signature="6:325" ph="..." />
+            <marker date="1516041936570" expanded="true" signature="80:279" ph="/* Credit to damien_oconnell from http://forum.unity3d.com/threads/39513-Click-drag-camera-movement ... */" />
+            <marker date="1516041936570" expanded="true" signature="371:2499" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="375:395" ph="/* VARIABLES ... */" />
+            <marker date="1516041936570" expanded="true" signature="896:913" ph="/* UPDATE ... */" />
+            <marker date="1516041936570" expanded="true" signature="932:2497" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="1000:1091" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="1160:1250" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="1320:1410" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="1661:1926" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="1984:2213" ph="{...}" />
+            <marker date="1516041936570" expanded="true" signature="2276:2494" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Algorithm/DbscanClusterer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <marker date="1516038932671" expanded="false" signature="6:97" ph="..." />
+            <marker date="1516038932671" expanded="true" signature="143:2393" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="315:2042" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="431:1969" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="770:835" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="852:1959" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="1141:1945" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="1294:1796" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="2092:2391" ph="{...}" />
+            <marker date="1516038932671" expanded="true" signature="2188:2358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game logic/ColorCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <marker date="1516042296583" expanded="false" signature="6:71" ph="..." />
+            <marker date="1516042296583" expanded="true" signature="93:1381" ph="{...}" />
+            <marker date="1516042296583" expanded="true" signature="132:1379" ph="{...}" />
+            <marker date="1516042296583" expanded="true" signature="335:559" ph="{...}" />
+            <marker date="1516042296583" expanded="true" signature="684:1373" ph="{...}" />
+            <marker date="1516042296583" expanded="true" signature="940:1326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
