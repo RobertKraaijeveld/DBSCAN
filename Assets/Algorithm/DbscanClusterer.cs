@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Algorithm.KDTree;
 using UnityEngine;
 
 public class DbscanClusterer : MonoBehaviour
@@ -8,35 +9,37 @@ public class DbscanClusterer : MonoBehaviour
     public int MinimumNeighboursAmount;
     public float Epsilon;
 
-    private List<Star> inputStars;
+    private List<KDNode<Star>> inputStarsNodes;
 
 
-    public List<Star> GetClusteredStars(List<Star> originalStars)
+    public List<Star> GetClusteredStars(KDTree<Star> starTree)
     {
-        inputStars = originalStars;
+        inputStarsNodes = starTree.TreeToList(starTree.RootNode).ToList();
+
+        
         int clusterCounter = 0;
 
-        foreach (var star in inputStars)
+        foreach (var starNode in inputStarsNodes)
         {
             //If we already processed this star, skip it
-            if (star.Visited)
+            if (starNode.value.Visited)
                 continue;
 
-            star.Visited = true;
+            starNode.value.Visited = true;
 
-
-            var neighbours = GetNeighbours(star);
+            var KNearestNeighboursFinder = new KDNearestNeighbours<Star>(starTree.RootNode);
+            var neighbours = KNearestNeighboursFinder.FindNearestNeighbour(starNode.value.Position, Epsilon);
 
             //If not enough neighbours, label as noise and continue.
             if (neighbours.Count < MinimumNeighboursAmount)
             {
-                star.IsNoise = true;
+                starNode.value.IsNoise = true;
             }
             else
             {
                 //Else, start new cluster.
                 clusterCounter++;
-                star.ClusterNumber = clusterCounter;
+                starNode.value.ClusterNumber = clusterCounter;
 
                 //Expanding the new cluster
                 var seedSet = neighbours;
@@ -45,16 +48,16 @@ public class DbscanClusterer : MonoBehaviour
                 {
                     var currentSeedPoint = seedSet[0];
                     
-                    if (currentSeedPoint.Visited == false)
+                    if (currentSeedPoint.value.Visited == false)
                     {
-                        currentSeedPoint.Visited = true;
+                        currentSeedPoint.value.Visited = true;
 
-                        var seedStarsNeighbours = GetNeighbours(currentSeedPoint);
+                        var seedStarsNeighbours = KNearestNeighboursFinder.FindNearestNeighbour(currentSeedPoint.value.Position, Epsilon);
                         if (seedStarsNeighbours.Count >= MinimumNeighboursAmount)
                             seedSet.AddRange(seedStarsNeighbours);
 
-                        if (currentSeedPoint.ClusterNumber == Star.UNASSIGNED_CLUSTER_NO)
-                            currentSeedPoint.ClusterNumber = clusterCounter;
+                        if (currentSeedPoint.value.ClusterNumber == Star.UNASSIGNED_CLUSTER_NO)
+                            currentSeedPoint.value.ClusterNumber = clusterCounter;
                     }
                     
                     //Doing this to avoid infinite loop
@@ -62,19 +65,6 @@ public class DbscanClusterer : MonoBehaviour
                 }
             }
         }
-        return inputStars.Where(s => s.IsNoise == false).ToList();
-    }
-
-
-    private List<Star> GetNeighbours(Star star)
-    {
-        var neighbours = new List<Star>();
-
-        foreach (var otherStar in inputStars)
-        {
-            if (otherStar.Id != star.Id && Vector3.Distance(otherStar.Position, star.Position) <= Epsilon)
-                neighbours.Add(otherStar);
-        }
-        return neighbours;
+        return inputStarsNodes.Where(s => s.value.IsNoise == false).Select(s => s.value).ToList();
     }
 }

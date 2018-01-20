@@ -1,15 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Algorithm;
 using UnityEngine;
 
-public class Star
+public class Star : AbstractThreeDimensionalPoint
 {
     public static readonly int UNASSIGNED_CLUSTER_NO = -1;
     
-    public readonly int Id;
+    public override readonly int Id;
     public int ClusterNumber;
 
-    public Vector3 Position;
+    public override Vector3 Position { get; set; }
     public bool IsNoise;
     public bool Visited;
 

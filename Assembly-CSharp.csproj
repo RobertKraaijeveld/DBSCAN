@@ -52,7 +52,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Algorithm\AbstractThreeDimensionalPoint.cs" />
     <Compile Include="Assets\Algorithm\DbscanClusterer.cs" />
+    <Compile Include="Assets\Algorithm\KDTree\KDNearestNeighbours.cs" />
+    <Compile Include="Assets\Algorithm\KDTree\KDNode.cs" />
+    <Compile Include="Assets\Algorithm\KDTree\KDTree.cs" />
     <Compile Include="Assets\Algorithm\Star.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
     <Compile Include="Assets\Game logic\ColorCreator.cs" />
