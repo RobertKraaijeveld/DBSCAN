@@ -12,20 +12,15 @@ public static class StarsParser
         var starFileLines = File.ReadAllLines(@"Assets/stars.csv");
     
         //debugging
+        var counter = 0;
         System.Random random = new System.Random();
-        int maxStarAmount = 3000;
-        int debugCount = 1250;
         var sanitizedStarFileLines = starFileLines.Skip(1).ToArray();
 
-        while (debugCount < maxStarAmount)
+        while (counter < sanitizedStarFileLines.Length)
         {
-            //var randomIndex = random.Next(0, sanitizedStarFileLines.Length - 1);
-            parsedStars.Add(GetStarFromLine(sanitizedStarFileLines[debugCount]));
-            
-            debugCount++;
+            parsedStars.Add(GetStarFromLine(sanitizedStarFileLines[counter]));
+            counter++;
         }
-        
-        
         return parsedStars;
     }
 

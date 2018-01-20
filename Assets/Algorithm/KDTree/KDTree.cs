@@ -1,109 +1,62 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using JetBrains.Annotations;
-using UnityEngine;
-using UnityEngine.Networking.Types;
+using System.Text;
 
-
-namespace Algorithm.KDTree
+namespace KDTree
 {
-    public class KDTree<T> where T : AbstractThreeDimensionalPoint
+
+    /// <summary>
+    /// A KDTree class represents the root of a variable-dimension KD-Tree.
+    /// </summary>
+    /// <typeparam name="T">The generic data type we want this tree to contain.</typeparam>
+    /// <remarks>This is based on this: https://bitbucket.org/rednaxela/knn-benchmark/src/tip/ags/utils/dataStructures/trees/thirdGenKD/ </remarks>
+    public class KDTree<T> : KDNode<T>
     {
-        public readonly int K;
-        public KDNode<T> RootNode;
-
-        public KDTree(List<T> pointList, int K)
+        /// <summary>
+        /// Create a new KD-Tree given a number of dimensions.
+        /// </summary>
+        /// <param name="iDimensions">The number of data sorting dimensions. i.e. 3 for a 3D point.</param>
+        public KDTree(int iDimensions)
+            : base(iDimensions, 24)
         {
-            this.K = K;
-            RootNode = ConstructTree(pointList, 0, null);
         }
 
-
-        /*
-            Creating the KDTree 
-        */
-
-        private KDNode<T> ConstructTree(List<T> pointList, int depth, KDNode<T> parent)
+        /// <summary>
+        /// Create a new KD-Tree given a number of dimensions and initial bucket capacity.
+        /// </summary>
+        /// <param name="iDimensions">The number of data sorting dimensions. i.e. 3 for a 3D point.</param>
+        /// <param name="iBucketCapacity">The default number of items that can be stored in each node.</param>
+        public KDTree(int iDimensions, int iBucketCapacity)
+            : base(iDimensions, iBucketCapacity)
         {
-            var node = new KDNode<T>();
-            node.parent = parent;
-
-            var currentAxis = depth % K;
-
-            //Finding median and the points before/after it
-            var orderedPoints = pointList.OrderBy(p => p.Position[currentAxis]).ToList();
-            var medianPoint = orderedPoints[orderedPoints.Count / 2];
-
-            var pointsBeforeMedian = orderedPoints.Where(v => v.Position[currentAxis] < medianPoint.Position[currentAxis]).ToList();
-            var pointsAfterMedian = orderedPoints.Where(v => v.Position[currentAxis] > medianPoint.Position[currentAxis]).ToList();
-
-            node.depth = depth;
-            node.value = orderedPoints[orderedPoints.IndexOf(medianPoint)];
-
-            //Recursing to the left and right, setting as leaf if there are no more points beside the median
-            if (pointsBeforeMedian.Count > 0 && pointsAfterMedian.Count > 0)
-            {
-                node.lesserChild = ConstructTree(pointsBeforeMedian, depth + 1, node);
-                node.greaterChild = ConstructTree(pointsAfterMedian, depth + 1, node);
-            }
-            else
-                node.IsLeaf = true;
-
-            return node;
         }
 
-        private float FindMedian(List<T> orderedPointList, int currentAxis)
+        /// <summary>
+        /// Get the nearest neighbours to a point in the kd tree using a square euclidean distance function.
+        /// </summary>
+        /// <param name="tSearchPoint">The point of interest.</param>
+        /// <param name="iMaxReturned">The maximum number of points which can be returned by the iterator.</param>
+        /// <param name="fDistance">A threshold distance to apply.  Optional.  Negative values mean that it is not applied.</param>
+        /// <returns>A new nearest neighbour iterator with the given parameters.</returns>
+        public NearestNeighbour<T> NearestNeighbors(double[] tSearchPoint, int iMaxReturned, double fDistance = -1)
         {
-            float median;
-
-            //Odd amount of elements
-            if (orderedPointList.Count % 2 != 0)
-            {
-                median = orderedPointList[orderedPointList.Count / 2].Position[currentAxis];
-            }
-            else
-            {
-                if (orderedPointList.Count > 2)
-                {
-                    var firstBeforeMedian = orderedPointList[(orderedPointList.Count / 2) - 1].Position[currentAxis];
-                    var firstAfterMedian = orderedPointList[(orderedPointList.Count / 2) + 1].Position[currentAxis];
-
-                    median = (firstBeforeMedian + firstAfterMedian) / 2;
-                }
-                else if (orderedPointList.Count == 2)
-                {
-                    var first = orderedPointList[0].Position[currentAxis];
-                    var second = orderedPointList[1].Position[currentAxis];
-
-                    return (first + second) / 2;
-                }
-                else
-                    return orderedPointList[0].Position[currentAxis];
-            }
-            return median;
+            DistanceFunctions distanceFunction = new SquareEuclideanDistanceFunction();
+            return NearestNeighbors(tSearchPoint, distanceFunction, iMaxReturned, fDistance);
         }
 
-
-        /*
-            Traversal
-        */
-
-        public List<KDNode<T>> TreeToList(KDNode<T> currentNode)
+        /// <summary>
+        /// Get the nearest neighbours to a point in the kd tree using a user defined distance function.
+        /// </summary>
+        /// <param name="tSearchPoint">The point of interest.</param>
+        /// <param name="iMaxReturned">The maximum number of points which can be returned by the iterator.</param>
+        /// <param name="kDistanceFunction">The distance function to use.</param>
+        /// <param name="fDistance">A threshold distance to apply.  Optional.  Negative values mean that it is not applied.</param>
+        /// <returns>A new nearest neighbour iterator with the given parameters.</returns>
+        public NearestNeighbour<T> NearestNeighbors(double[] tSearchPoint, DistanceFunctions kDistanceFunction, int iMaxReturned, double fDistance)
         {
-            //Do a depth first traversal
-            var returnList = new List<KDNode<T>>();
-            
-            returnList.Add(RootNode);
-            
-            if(currentNode.lesserChild != null)
-                returnList.AddRange(TreeToList(currentNode.lesserChild));
-            
-            if(currentNode.greaterChild != null)
-                returnList.AddRange(TreeToList(currentNode.greaterChild));
-
-            return returnList;
+            return new NearestNeighbour<T>(this, tSearchPoint, kDistanceFunction, iMaxReturned, fDistance);
         }
     }
 }
